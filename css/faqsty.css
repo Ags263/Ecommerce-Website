@@ -1,0 +1,64 @@
+
+.faq {
+    background-color: transparent;
+    
+  }
+  .accordion-container{
+    margin: 1rem auto;
+    max-width: 70rem;
+  }
+ 
+  .accordioncare{
+    margin: 1rem 0;
+    background-color: transparent;
+    border-radius: .5rem;
+  
+ 
+  &.active{
+ 
+    .accordion-content{
+       display: block;
+    }
+  }
+    .accordion-heading{
+       padding: 2rem;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       gap: 1rem;
+       cursor: pointer;
+       font-size: 2rem;
+       font-style: italic;
+       font-weight: bolder;
+ 
+       h3{
+          font-size: 2.2rem;
+          line-height: 1.5;
+          justify-content: center;
+          align-items: center;
+       }
+   
+ 
+       i{
+          font-size: 2rem;
+          line-height: .2s linear;
+       }
+    }
+ 
+    .accordion-content{
+       padding: 1.5rem ;
+       padding-top: 0;
+       line-height: 2;
+       font-size: 1.9rem;
+       display: none;
+       animation: fadeUp .2s linear backwards;
+       color: blueviolet;
+       transition: .5s;
+    }
+}
+.faq .heading h1 {
+   text-align: center;
+   justify-items: center;
+   margin-bottom: 3rem;
+   
+}
